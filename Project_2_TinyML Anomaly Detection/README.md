@@ -161,4 +161,4 @@ stm32-tinyml-anomaly-detection/
 
 **Kishan Harshukh Kalariya**
 M.Sc. Embedded System Design · Germany · 2026
-[LinkedIn](https://www.linkedin.com/in/kishan-kalariya-3b2205210/) · [GitHub](https://github.com/kishankalariya) · kkalariya201@gmail.com
+[LinkedIn](https://www.linkedin.com/in/kishan-kalariya-3b2205210/) · [GitHub](https://github.com/kishankal?tab=repositories) · kkalariya201@gmail.com
