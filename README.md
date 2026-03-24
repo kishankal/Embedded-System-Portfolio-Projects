@@ -91,13 +91,6 @@ University in Germany · 2024 – Present (Expected 2026)
 
 ---
 
-## Work Experience
-
-**Embedded Systems Engineer** · 1.5 years prior industry experience
-*(Company details to be updated)*
-
----
-
 ## Contact
 
 I am actively looking for Werkstudent positions in embedded systems engineering in Germany.
