@@ -3,7 +3,7 @@
 **M.Sc. Embedded System Design** | Bremerhaven, Germany | 2026
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kishan--kalariya-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/kishan-kalariya-3b2205210/)
-[![GitHub](https://img.shields.io/badge/GitHub-kishankalariya-black?style=flat&logo=github)](https://github.com/kishankalariya)
+[![GitHub](https://img.shields.io/badge/GitHub-kishankalariya-black?style=flat&logo=github)](https://github.com/kishankal?tab=repositories)
 [![Email](https://img.shields.io/badge/Email-kkalariya201@gmail.com-red?style=flat&logo=gmail)](mailto:kkalariya201@gmail.com)
 
 ---
@@ -104,7 +104,7 @@ I am actively looking for Werkstudent positions in embedded systems engineering 
 
 - 📧 **Email:** kkalariya201@gmail.com
 - 💼 **LinkedIn:** [kishan-kalariya-3b2205210](https://www.linkedin.com/in/kishan-kalariya-3b2205210/)
-- 💻 **GitHub:** [kishankalariya](https://github.com/kishankalariya)
+- 💻 **GitHub:** [kishankalariya](https://github.com/kishankal?tab=repositories)
 
 ---
 
