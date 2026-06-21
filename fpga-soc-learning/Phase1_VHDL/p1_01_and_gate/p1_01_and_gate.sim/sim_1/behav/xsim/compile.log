@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/FPGA_Learning/Phase1_VHDL/p1_01_and_gate/p1_01_and_gate.srcs/sources_1/new/and_gate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux4to1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/FPGA_Learning/Phase1_VHDL/p1_01_and_gate/p1_01_and_gate.srcs/sim_1/new/and_gate_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux4to1_tb'

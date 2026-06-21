@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5561174541605898083  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mux4to1_tb_behav xil_defaultlib.mux4to1_tb" , 
+    buildDate : "Nov 14 2025" , 
+    buildTime : "19:37:27" , 
+    linkCmd : "C:\\AMDDesignTools\\2025.2\\Vivado\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/mux4to1_tb_behav/xsimk.exe\"   \"xsim.dir/mux4to1_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/mux4to1_tb_behav/obj/xsim_1.win64.obj\" -L\"C:\\AMDDesignTools\\2025.2\\Vivado\\lib\\win64.o\" -lxv_simulator_kernel   -lxv_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
