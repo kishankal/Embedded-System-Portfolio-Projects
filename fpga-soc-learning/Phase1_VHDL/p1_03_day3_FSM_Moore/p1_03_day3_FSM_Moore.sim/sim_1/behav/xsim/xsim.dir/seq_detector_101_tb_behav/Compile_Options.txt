@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "seq_detector_101_tb_behav" "xil_defaultlib.seq_detector_101_tb" -log "elaborate.log" 
