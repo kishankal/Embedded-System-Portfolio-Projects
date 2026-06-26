@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../p1_04_day4_FSM_Mealy_memory_element.srcs/sources_1/new/sync_fifo.vhd" \
+"../../../../p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd" \
+
+# Do not sort compile order
+nosort

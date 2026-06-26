@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/dual_port_ram_tb.vhd,1782439581,vhdl,,,,dual_port_ram_tb,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/single_port_ram_tb.vhd,1782438043,vhdl,,,,single_port_ram_tb,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sqn_detector_tb.vhd,1782435557,vhdl,,,,sqn_detector_tb,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd,1782442410,vhdl,,,,sync_fifo_tb,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sources_1/new/dual_port_ram.vhd,1782439556,vhdl,C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/dual_port_ram_tb.vhd,,,dual_port_ram,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sources_1/new/single_port_ram.vhd,1782437999,vhdl,C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/single_port_ram_tb.vhd,,,single_port_ram,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sources_1/new/sqn_detector.vhd,1782435622,vhdl,C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sqn_detector_tb.vhd,,,sqn_detector,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sources_1/new/sync_fifo.vhd,1782442386,vhdl,C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd,,,sync_fifo,,,,,,,,

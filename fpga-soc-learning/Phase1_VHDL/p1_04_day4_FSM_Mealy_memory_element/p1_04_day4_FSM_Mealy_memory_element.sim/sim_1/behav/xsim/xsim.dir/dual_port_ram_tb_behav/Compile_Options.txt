@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "dual_port_ram_tb_behav" "xil_defaultlib.dual_port_ram_tb" -log "elaborate.log" 

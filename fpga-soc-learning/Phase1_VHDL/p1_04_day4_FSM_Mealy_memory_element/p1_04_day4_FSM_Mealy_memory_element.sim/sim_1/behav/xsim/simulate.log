@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+Note: TEST 1: Write 5 values, read 5 values
+Time: 30 ns  Iteration: 0  Process: /sync_fifo_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd
+Note: TEST 2: Fill FIFO until full
+Time: 140 ns  Iteration: 0  Process: /sync_fifo_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd
+Note: TEST 3: Empty FIFO
+Time: 310 ns  Iteration: 0  Process: /sync_fifo_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd
+Note: TEST 4: Simultaneous read and write
+Time: 480 ns  Iteration: 0  Process: /sync_fifo_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd
+Note: TEST 5: Read from empty FIFO
+Time: 530 ns  Iteration: 0  Process: /sync_fifo_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd
+Note: TEST 6: Write to full FIFO
+Time: 550 ns  Iteration: 0  Process: /sync_fifo_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd
+Note: SIMULATION COMPLETE!
+Time: 760 ns  Iteration: 0  Process: /sync_fifo_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_04_day4_FSM_Mealy_memory_element/p1_04_day4_FSM_Mealy_memory_element.srcs/sim_1/new/sync_fifo_tb.vhd
