@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "parking_lot_tb_behav" "xil_defaultlib.parking_lot_tb" -log "elaborate.log" 

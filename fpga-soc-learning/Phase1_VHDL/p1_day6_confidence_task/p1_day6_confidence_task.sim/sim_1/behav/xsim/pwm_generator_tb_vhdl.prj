@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../p1_day6_confidence_task.srcs/sources_1/new/pwm_generator.vhd" \
+"../../../../p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd" \
+
+# Do not sort compile order
+nosort

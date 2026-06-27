@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Note: Test 1: 25% duty cycle
+Time: 30 ns  Iteration: 0  Process: /pwm_generator_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd
+Note: Test 2: 50% duty cycle
+Time: 130 ns  Iteration: 0  Process: /pwm_generator_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd
+Note: Test 3: 75% duty cycle
+Time: 230 ns  Iteration: 0  Process: /pwm_generator_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd
+Note: Test 4: 100% duty cycle
+Time: 330 ns  Iteration: 0  Process: /pwm_generator_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd
+Note: Test 5: 0% duty cycle
+Time: 430 ns  Iteration: 0  Process: /pwm_generator_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd
+Note: SIMULATION COMPLETE!
+Time: 550 ns  Iteration: 0  Process: /pwm_generator_tb/stim_process  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd

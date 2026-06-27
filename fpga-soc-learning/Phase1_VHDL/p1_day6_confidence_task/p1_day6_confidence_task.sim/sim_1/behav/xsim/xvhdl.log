@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sources_1/new/pwm_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pwm_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_day6_confidence_task/p1_day6_confidence_task.srcs/sim_1/new/pwm_generator_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pwm_generator_tb'
