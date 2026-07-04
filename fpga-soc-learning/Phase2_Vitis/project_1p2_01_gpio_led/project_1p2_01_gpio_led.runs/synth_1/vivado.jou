@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Jul  3 12:57:06 2026
+# Process ID         : 21684
+# Current directory  : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/project_1p2_01_gpio_led/project_1p2_01_gpio_led.runs/synth_1
+# Command line       : vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file           : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/project_1p2_01_gpio_led/project_1p2_01_gpio_led.runs/synth_1/design_1_wrapper.vds
+# Journal file       : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/project_1p2_01_gpio_led/project_1p2_01_gpio_led.runs/synth_1\vivado.jou
+# Running On         : Kishan
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8297 MB
+# Swap memory        : 8053 MB
+# Total Virtual      : 16350 MB
+# Available Virtual  : 4183 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
