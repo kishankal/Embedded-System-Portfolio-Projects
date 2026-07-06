@@ -1,16 +1,16 @@
-\# Day 4 — UART: Polled Mode + Command Parser
+# Day 4 — UART: Polled Mode + Command Parser
 
 
 
-\*\*Phase:\*\* 2 — Embedded C on Vitis
+**Phase:** 2 — Embedded C on Vitis
 
-\*\*Topic:\*\* PS UART, polled TX/RX, command parser, two-way communication
+**Topic:** PS UART, polled TX/RX, command parser, two-way communication
 
-\*\*Tools:\*\* Vivado + Vitis 2025.2, Target board: PYNQ-Z2 (xc7z020clg400-1)
+**Tools:** Vivado + Vitis 2025.2, Target board: PYNQ-Z2 (xc7z020clg400-1)
 
 
 
-\## What's in this folder
+## What's in this folder
 
 
 
@@ -18,41 +18,41 @@
 
 |---|---|
 
-| `uart\_app.c` | UART command console — type commands to control LEDs |
+| `uart_app.c` | UART command console — type commands to control LEDs |
 
 
 
-\## No New Vivado Project Needed
+## No New Vivado Project Needed
 
 
 
 PS UART is built into Zynq PS silicon — no new IP block required.
 
-Reused platform from Day 3 (pynq\_interrupt\_platform).
+Reused platform from Day 3 (pynq_interrupt_platform).
 
 
 
-\## UART Protocol Basics
+## UART Protocol Basics
 
 
 
 Frame format (8N1):
 
-\[START]\[D0]\[D1]\[D2]\[D3]\[D4]\[D5]\[D6]\[D7]\[STOP]
+[START][D0][D1][D2][D3][D4][D5][D6][D7][STOP]
 
-\- START bit = LOW
+- START bit = LOW
 
-\- 8 data bits, LSB first
+- 8 data bits, LSB first
 
-\- STOP bit = HIGH
+- STOP bit = HIGH
 
-\- 115200 baud = 1 bit per 8.68 microseconds
+- 115200 baud = 1 bit per 8.68 microseconds
 
-\- Full byte (10 bits) = 86.8 microseconds
+- Full byte (10 bits) = 86.8 microseconds
 
 
 
-\## PS UART vs AXI UART Lite
+## PS UART vs AXI UART Lite
 
 
 
@@ -72,35 +72,35 @@ Frame format (8N1):
 
 
 
-\## Important Lesson Learned
+## Important Lesson Learned
 
 
 
-Never mix xil\_printf() and XUartPs in same program.
+Never mix xil_printf() and XUartPs in same program.
 
-xil\_printf() initializes UART with its own settings causing baud rate
+xil_printf() initializes UART with its own settings causing baud rate
 
 conflict and garbled output. Use ONLY XUartPs functions exclusively.
 
 
 
-\## Command Parser Flow
+## Command Parser Flow
 
 
 
-1\. Read characters one by one from RX FIFO
+1. Read characters one by one from RX FIFO
 
-2\. Echo each character back (so user sees what they type)
+2. Echo each character back (so user sees what they type)
 
-3\. Build string in buffer until Enter pressed
+3. Build string in buffer until Enter pressed
 
-4\. strcmp() against known commands
+4. strcmp() against known commands
 
-5\. Execute action + send response over UART
+5. Execute action + send response over UART
 
 
 
-\## Available Commands
+## Available Commands
 
 
 
@@ -126,37 +126,37 @@ conflict and garbled output. Use ONLY XUartPs functions exclusively.
 
 
 
-\## Concepts Covered
+## Concepts Covered
 
 
 
-\- XUartPs driver: LookupConfig, CfgInitialize, SetBaudRate
+- XUartPs driver: LookupConfig, CfgInitialize, SetBaudRate
 
-\- XUartPs\_Send() polled TX
+- XUartPs_Send() polled TX
 
-\- XUartPs\_IsReceiveData() non-blocking RX check
+- XUartPs_IsReceiveData() non-blocking RX check
 
-\- XUartPs\_Recv() polled RX
+- XUartPs_Recv() polled RX
 
-\- Command buffer with backspace support
+- Command buffer with backspace support
 
-\- strcmp() for command parsing
+- strcmp() for command parsing
 
-\- Echo back for terminal user experience
+- Echo back for terminal user experience
 
 
 
-\## Verification
+## Verification
 
 
 
 Tested on PYNQ-Z2 with PuTTY (COM4, 115200 baud):
 
-\- All 8 commands working correctly
+- All 8 commands working correctly
 
-\- LEDs respond immediately to commands
+- LEDs respond immediately to commands
 
-\- Backspace works in terminal
+- Backspace works in terminal
 
-\- Unknown commands handled gracefully
+- Unknown commands handled gracefully
 
