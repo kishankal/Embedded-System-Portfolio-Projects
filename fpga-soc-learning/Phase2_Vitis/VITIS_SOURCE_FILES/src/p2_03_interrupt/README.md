@@ -1,16 +1,16 @@
-\# Day 3 — GPIO Interrupt + AXI Timer
+# Day 3 — GPIO Interrupt + AXI Timer
 
 
 
-\*\*Phase:\*\* 2 — Embedded C on Vitis
+**Phase:** 2 — Embedded C on Vitis
 
-\*\*Topic:\*\* GIC interrupts, ISR, AXI Timer, concurrent tasks
+**Topic:** GIC interrupts, ISR, AXI Timer, concurrent tasks
 
-\*\*Tools:\*\* Vivado + Vitis 2025.2, Target board: PYNQ-Z2 (xc7z020clg400-1)
+**Tools:** Vivado + Vitis 2025.2, Target board: PYNQ-Z2 (xc7z020clg400-1)
 
 
 
-\## What's in this folder
+## What's in this folder
 
 
 
@@ -18,27 +18,27 @@
 
 |---|---|
 
-| `interrupt\_app.c` | Button interrupt ISR + AXI Timer 1-second blink running together |
+| `interrupt_app.c` | Button interrupt ISR + AXI Timer 1-second blink running together |
 
 
 
-\## Hardware Setup (Vivado Block Design)
+## Hardware Setup (Vivado Block Design)
 
 
 
-\- Zynq7 PS block (IRQ\_F2P enabled)
+- Zynq7 PS block (IRQ\_F2P enabled)
 
-\- AXI SmartConnect
+- AXI SmartConnect
 
-\- AXI GPIO (leds\_4bits + btns\_4bits, interrupt enabled)
+- AXI GPIO (leds_4bits + btns_4bits, interrupt enabled)
 
-\- AXI Timer
+- AXI Timer
 
-\- Concat block: GPIO ip2intc\_irpt → In0, Timer interrupt → In1, dout → IRQ\_F2P
+- Concat block: GPIO ip2intc_irpt → In0, Timer interrupt → In1, dout → IRQ_F2P
 
 
 
-\## Interrupt Flow
+## Interrupt Flow
 
 BTN pressed
 ↓
