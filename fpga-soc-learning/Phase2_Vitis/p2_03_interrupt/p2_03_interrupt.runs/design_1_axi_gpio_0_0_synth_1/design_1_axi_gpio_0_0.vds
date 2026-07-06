@@ -1,0 +1,457 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Jul  6 11:45:33 2026
+# Process ID         : 14532
+# Current directory  : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_axi_gpio_0_0_synth_1
+# Command line       : vivado.exe -log design_1_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_0.tcl
+# Log file           : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.vds
+# Journal file       : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_axi_gpio_0_0_synth_1\vivado.jou
+# Running On         : Kishan
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8297 MB
+# Swap memory        : 8321 MB
+# Total Virtual      : 16619 MB
+# Available Virtual  : 2001 MB
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 525.695 ; gain = 221.977
+Command: synth_design -top design_1_axi_gpio_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13480
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1314.777 ; gain = 541.746
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:88]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 4 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 4 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 1 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 1 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT bound to: 32'b11111111111111111111111111111111 
+	Parameter C_IS_DUAL bound to: 1 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
+INFO: [Synth 8-3491] module 'axi_gpio' declared at 'c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:1255' bound to instance 'U0' of component 'axi_gpio' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:1341]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized7' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized7' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized8' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized8' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized9' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized9' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized10' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized10' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized11' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized11' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized12' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized12' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized13' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized13' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized14' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized14' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized15' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized15' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized16' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized16' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized17' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized17' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized18' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized18' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized19' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized19' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized20' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized20' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'interrupt_control' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/d8cc/hdl/interrupt_control_v3_1_vh_rfs.vhd:257]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/d8cc/hdl/interrupt_control_v3_1_vh_rfs.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:182]
+INFO: [Synth 8-226] default block is never used [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:833]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_array_single' declared at 'C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903' bound to instance 'INPUT_DOUBLE_REGS4' of component 'xpm_cdc_array_single' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:851]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_array_single' [C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_array_single' (0#1) [C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903]
+	Parameter DEST_SYNC_FF bound to: 4 - type: integer 
+	Parameter INIT_SYNC_FF bound to: 0 - type: integer 
+	Parameter SIM_ASSERT_CHK bound to: 0 - type: integer 
+	Parameter SRC_INPUT_REG bound to: 0 - type: integer 
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_cdc_array_single' declared at 'C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:903' bound to instance 'INPUT_DOUBLE_REGS5' of component 'xpm_cdc_array_single' [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:880]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:182]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:1341]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_0' (0#1) [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:88]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[1].GPIO_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[2].GPIO_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[3].GPIO_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:617]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLIN0_ND_G2.READ_REG2_GEN[0].GPIO2_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:717]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLIN0_ND_G2.READ_REG2_GEN[1].GPIO2_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:717]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLIN0_ND_G2.READ_REG2_GEN[2].GPIO2_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:717]
+INFO: [Synth 8-6014] Unused sequential element Dual.ALLIN0_ND_G2.READ_REG2_GEN[3].GPIO2_DBus_i_reg was removed.  [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ipshared/0271/hdl/axi_gpio_v2_0_vh_rfs.vhd:717]
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_array_single is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[1] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[2] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[3] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[4] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[7] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port ABus_Reg[8] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[0] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[1] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[2] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port BE_Reg[3] in module GPIO_Core is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[4] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[5] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[6] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[7] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[8] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[9] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[10] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[11] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[12] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[13] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[14] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[15] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[16] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[17] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[18] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[19] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[20] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[21] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[22] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[23] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[24] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[25] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[26] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[27] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[28] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_data[29] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_be[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_be[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port bus2ip_be[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[0] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[4] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[5] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[6] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[9] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[11] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[12] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[13] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[14] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_rdce[15] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[0] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[2] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[3] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[4] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[5] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[6] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[9] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[11] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[12] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[13] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[14] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port interrupt_wrce[15] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port ipif_reg_interrupts[0] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port ipif_reg_interrupts[1] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port ipif_lvl_interrupts[0] in module interrupt_control is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[1] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[2] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[3] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[4] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[5] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[6] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[7] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[8] in module pselect_f__parameterized4 is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[5] in module pselect_f is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[6] in module pselect_f is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[7] in module pselect_f is either unconnected or has no load
+INFO: [Synth 8-7129] Port A[8] in module pselect_f is either unconnected or has no load
+INFO: [Synth 8-7129] Port Bus_RNW in module address_decoder is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_WSTRB[3] in module slave_attachment is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_WSTRB[2] in module slave_attachment is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_WSTRB[1] in module slave_attachment is either unconnected or has no load
+INFO: [Synth 8-7129] Port S_AXI_WSTRB[0] in module slave_attachment is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1446.793 ; gain = 673.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1446.793 ; gain = 673.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1446.793 ; gain = 673.762
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1446.793 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'U0'
+Parsing XDC File [C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_axi_gpio_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_axi_gpio_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_array_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_axi_gpio_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_axi_gpio_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 2 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1518.668 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1518.668 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1518.668 ; gain = 745.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1518.668 ; gain = 745.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1518.668 ; gain = 745.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 1518.668 ; gain = 745.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      4 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 17    
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 65    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 10    
+	   2 Input    2 Bit        Muxes := 3     
+	   3 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 37    
+	   4 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7129] Port src_clk in module xpm_cdc_array_single is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[30] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[29] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[28] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[27] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[26] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[25] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[24] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[23] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[22] in module axi_gpio is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axi_wdata[21] in module axi_gpio is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1518.668 ; gain = 745.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 1639.211 ; gain = 866.180
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1659.707 ; gain = 886.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1660.434 ; gain = 887.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    11|
+|3     |LUT3 |    18|
+|4     |LUT4 |    19|
+|5     |LUT5 |    46|
+|6     |LUT6 |    20|
+|7     |FDRE |   141|
+|8     |FDSE |    13|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:44 . Memory (MB): peak = 1898.062 ; gain = 1053.156
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 1898.062 ; gain = 1125.031
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1907.199 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1910.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: d9d47202
+INFO: [Common 17-83] Releasing license: Synthesis
+191 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:56 . Memory (MB): peak = 1910.840 ; gain = 1368.047
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1910.840 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_gpio_0_0, cache-ID = a7491ce7bff97b48
+INFO: [Coretcl 2-1174] Renamed 8 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1910.840 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axi_gpio_0_0_utilization_synth.rpt -pb design_1_axi_gpio_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jul  6 11:46:47 2026...

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Jul  6 11:45:33 2026
+# Process ID         : 2384
+# Current directory  : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_rst_ps7_0_50M_0_synth_1
+# Command line       : vivado.exe -log design_1_rst_ps7_0_50M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_rst_ps7_0_50M_0.tcl
+# Log file           : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_rst_ps7_0_50M_0_synth_1/design_1_rst_ps7_0_50M_0.vds
+# Journal file       : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/design_1_rst_ps7_0_50M_0_synth_1\vivado.jou
+# Running On         : Kishan
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8297 MB
+# Swap memory        : 8321 MB
+# Total Virtual      : 16619 MB
+# Available Virtual  : 1978 MB
+#-----------------------------------------------------------
+source design_1_rst_ps7_0_50M_0.tcl -notrace
