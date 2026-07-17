@@ -1,1 +1,9 @@
 Time resolution is 1 ps
+Note: PASS: Loopback 0x55 received correctly
+Time: 1085 ns  Iteration: 0  Process: /uart_loopback_tb/stim_proc  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd
+Note: PASS: Loopback 0xA3 received correctly
+Time: 2265 ns  Iteration: 0  Process: /uart_loopback_tb/stim_proc  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd
+Note: PASS: Loopback 0xFF received correctly
+Time: 3445 ns  Iteration: 0  Process: /uart_loopback_tb/stim_proc  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd
+Note: UART LOOPBACK TEST COMPLETE - All bytes match!
+Time: 3645 ns  Iteration: 0  Process: /uart_loopback_tb/stim_proc  File: C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd
