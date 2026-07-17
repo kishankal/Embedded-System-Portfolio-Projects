@@ -1,0 +1,15 @@
+# Vivado simulation output files
+*.sim/
+*.cache/
+*.runs/
+*.ip_user_files/
+*.gen/
+*.hbs/
+*.jou
+*.log
+*.wdb
+*.pb
+xsim.dir/
+
+# Vitis workspace — never push
+VITIS_WORKSPACE/
