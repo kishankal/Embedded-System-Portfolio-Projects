@@ -677,6 +677,9 @@
 
 //MODULE DECLARATION
  module design_1_processing_system7_0_0 (
+  TTC0_WAVE0_OUT,
+  TTC0_WAVE1_OUT,
+  TTC0_WAVE2_OUT,
   USB0_PORT_INDCTL,
   USB0_VBUS_PWRSELECT,
   USB0_VBUS_PWRFAULT,
@@ -806,6 +809,9 @@
 
 //INPUT AND OUTPUT PORTS
 
+      output  TTC0_WAVE0_OUT;
+      output  TTC0_WAVE1_OUT;
+      output  TTC0_WAVE2_OUT;
       output  [1 : 0] USB0_PORT_INDCTL;
       output  USB0_VBUS_PWRSELECT;
       input  USB0_VBUS_PWRFAULT;
@@ -875,6 +881,9 @@
 
 //REG DECLARATIONS
 
+      reg TTC0_WAVE0_OUT;
+      reg TTC0_WAVE1_OUT;
+      reg TTC0_WAVE2_OUT;
       reg [1 : 0] USB0_PORT_INDCTL;
       reg USB0_VBUS_PWRSELECT;
       reg M_AXI_GP0_ARVALID;

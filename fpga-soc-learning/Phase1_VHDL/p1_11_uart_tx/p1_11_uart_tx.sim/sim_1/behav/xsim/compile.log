@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_loopback_tb'

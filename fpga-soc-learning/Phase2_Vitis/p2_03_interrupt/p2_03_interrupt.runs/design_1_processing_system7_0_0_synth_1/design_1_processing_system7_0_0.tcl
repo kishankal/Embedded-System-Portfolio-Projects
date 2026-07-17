@@ -57,6 +57,7 @@ if {$::dispatch::connected} {
 
 OPTRACE "design_1_processing_system7_0_0_synth_1" START { ROLLUP_AUTO }
 set_param general.usePosixSpawnForFork 1
+set_param bd.open.in_stealth_mode 1
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -77,7 +78,7 @@ set_property ip_output_repo c:/Embedded-System-Portfolio-Projects/fpga-soc-learn
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci
+read_ip -quiet C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci
 set_property used_in_implementation false [get_files -all c:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
 
 OPTRACE "Adding files" END { }

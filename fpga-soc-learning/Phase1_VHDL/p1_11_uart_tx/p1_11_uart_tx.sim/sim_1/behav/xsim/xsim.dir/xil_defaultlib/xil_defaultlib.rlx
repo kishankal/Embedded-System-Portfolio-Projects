@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd,1784322453,vhdl,,,,uart_loopback_tb,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_rx_tb.vhd,1784321259,vhdl,,,,uart_rx_tb,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_tx_tb.vhd,1784320182,vhdl,,,,uart_tx_tb,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sources_1/new/uart_rx.vhd,1784321229,vhdl,C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd,,,uart_rx,,,,,,,,
+C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sources_1/new/uart_tx.vhd,1784320117,vhdl,C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase1_VHDL/p1_11_uart_tx/p1_11_uart_tx.srcs/sim_1/new/uart_loopback_tb.vhd,,,uart_tx,,,,,,,,

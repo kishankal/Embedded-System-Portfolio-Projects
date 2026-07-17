@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Mon Jul  6 11:48:25 2026
-# Process ID         : 13460
+# Start of session at: Tue Jul  7 13:35:26 2026
+# Process ID         : 14204
 # Current directory  : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/impl_1
 # Command line       : vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
 # Log file           : C:/Embedded-System-Portfolio-Projects/fpga-soc-learning/Phase2_Vitis/p2_03_interrupt/p2_03_interrupt.runs/impl_1/design_1_wrapper.vdi
@@ -17,8 +17,8 @@
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 8297 MB
-# Swap memory        : 9408 MB
-# Total Virtual      : 17706 MB
-# Available Virtual  : 3336 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 16887 MB
+# Available Virtual  : 2330 MB
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace
