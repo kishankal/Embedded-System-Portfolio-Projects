@@ -1,0 +1,26 @@
+# Vivado generated folders
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.gen/
+.Xil/
+*.jou
+*.log
+*.str
+*.bit
+webtalk*
+
+# Vitis generated folders
+*/Debug/
+*/Release/
+*_ide/
+.metadata/
+*.o
+*.d
+*.elf
+
+# OS/temp files
+~$*
+Thumbs.db

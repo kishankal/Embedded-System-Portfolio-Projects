@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER pynq_peripheral
+	OPTION supported_peripherals = (pynq_peripheral);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = pynq_peripheral;
+END DRIVER
